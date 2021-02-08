@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 200;
+}
+.scoreC{
+    text-align: center;
+    color: rgb(255, 236, 127);
+}
+.score{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 236, 127);
+}
+.backg{
+    background: url('../picture/zarbackg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+}
+img{
+    max-width: 100%;
+}
+.player{
+    width: 400px;
+    height: 710px;
+    position: absolute;
+    top: 48.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.5), -3px -3px 50px rgba(0, 0, 0, 0.5);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.img{
+    border-top: 3px solid #fff;
+    border-radius: 70%;
+}
+.img img{
+    margin: 50px 0 0 55px;
+    width: 70%;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.text{
+    top: 400px;
+    text-align: center;
+    margin: 10px 0;
+    color: rgb(255, 236, 127);
+    font-size: 16px;
+}
+.text h1{
+    font-size: 3em;
+}
+.timeText{
+    font-size: 15px;
+    text-align: center;
+    color: rgba(241, 198, 54, 0.85);
+    border-bottom: 9px solid rgb(255, 236, 127);
+    border-top: 9px solid rgb(255, 236, 127);
+    border-radius: 50%;
+    border-width: 3px;
+}
+.text h4{
+    font-size: 1.4em;
+}
+.btns{
+    margin: 40px 0;
+    text-align: center;
+}
+#timer{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.btns2{
+    margin: 40px 0;
+    text-align: center;
+}
+.btns a{
+    color: rgba(79, 61, 14, 0.796);
+    font-size: 5em;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+.btns a:hover{
+    color: rgb(255, 236, 127);
+}
+.diceS{
+    margin: 40px 0;
+    text-align: center;
+    font-size: 3.5em;
+    color: rgb(247, 225, 105);
+    top: 10px;
+}

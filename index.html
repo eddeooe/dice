@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <title>Dice</title>
+    <link rel="shortcut icon" href="icon/Icons8-Ios7-Gaming-Dice.ico"/>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class = "backg">
+        <section class = "player">
+            <div class = "container">
+
+                <div class="text">
+                    <h1>DICE</h1>
+                </div>
+                <div class="timeText">Time
+                    <p class="restart" id="timerA">0</p>60 second
+                </div>
+                <div class="btns2"><i></i></div>
+                <div class="scoreC">
+                    <p>Your Score</p>
+                </div>
+                <div>
+                    <p class="score" id ="score">0</p>
+                </div>
+                <div class="btns">
+                    <a href="#" class="play-btna" id="dice1" onclick="sure()"><i class="fas fa-play"></i></a>
+                    <a href="#" class="play-btn" id="dice2" onclick="diceRoll()" style="visibility: hidden;"><i class="fas fa-dice"></i></a>
+                    <a href="#" class="play-btnb" id="dice3" onclick="resAt()" style="visibility: hidden;"><i class="fas fa-redo"></i></a>
+                </div>
+                <div class="diceS">
+                    <p id="diceS"></p>
+                </div>
+                <div class="diceS">
+                    <p id="diceS2"></p>
+                </div>
+            </div>
+            <audio class="song" id="zarSong">
+                <source src="mp3/zar3-1.mp3" type="audio/mp3"/>
+            </audio>
+            <audio class="bgsound" id="bgSong">
+                <source src="mp3/believer.mp3" type="audio/mp3">
+            </audio>
+        </section>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
