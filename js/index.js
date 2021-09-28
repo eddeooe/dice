@@ -4,6 +4,7 @@ const bgsound = document.querySelector('.bgsound');
 const timera = document.querySelector('.restart');
 var sayac = 1;
 var i = 1;
+var a;
 function diceRoll(){
     dicesound.play();
     var birinciSayi = Math.random();
